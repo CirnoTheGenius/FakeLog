@@ -2,3 +2,11 @@ version: 1
 author: Evangon
 name: FakeLog
 main: com.tenko.FakeLog
+
+commands:
+    flogin:
+        description: Fakes a login.
+        usage: Usage: /flogin <username>
+    flogout:
+        description: Fakes a logout.
+        usage: Usage: /flogout <username>

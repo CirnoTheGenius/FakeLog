@@ -1,0 +1,10 @@
+# The /flogin permission node.
+FLoginPermission: fakelog.flogin
+
+# The /flogout permission node.
+FLogoutPermission: fakelog.flogout
+
+# List of usernames to disallow the usage of a fake login or logout.
+NoFake:
+- Admin
+- Moderator
